@@ -51,7 +51,9 @@ def setup_encoding():
     Notes:
         - Uses `sys.stdout.reconfigure()` (Python 3.7+) where available.
         - Falls back silently if the Python version does not support reconfiguration.
-    """    system = platform.system().lower()
+    """    
+    
+    system = platform.system().lower()
     
     if system == 'windows':
         # Windows: Force UTF-8 to handle international characters properly
