@@ -2,7 +2,7 @@
 
 SIFT-PM is a Python-based automation toolkit designed to streamline and enhance the literature review process. Optimized for use with NCBI's PubMed API, it enables researchers to efficiently seek, sift, and select high-quality papers for systematic or scoping reviews.
 
-See the /docs quick_setup.md or detailed_guide.md for more info.
+See the /docs quick_start.md or detailed_guide.md for more info.
 
 \---
 
