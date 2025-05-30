@@ -17,3 +17,4 @@ six==1.17.0
 tqdm==4.67.1
 tzdata==2025.2
 urllib3==2.4.0
+-e git+https://github.com/zhuchcn/pubmed-bib.git@40e61e52354e500d4007addf0bb23bfb2e1c965c#egg=pubmed_bib
