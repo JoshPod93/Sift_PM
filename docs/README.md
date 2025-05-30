@@ -2,6 +2,8 @@
 
 SIFT-PM is a Python-based automation toolkit designed to streamline and enhance the literature review process. Optimized for use with NCBI's PubMed API, it enables researchers to efficiently seek, sift, and select high-quality papers for systematic or scoping reviews.
 
+Simply download the repo, provide your PMID lists as plain text files, run the code, and get a well-formatted Excel spreadsheet along with detailed error and duplicate reports—perfect for streamlined PRISMA logging and it even has citation threshold enforcement.
+
 See the /docs quick_start.md or detailed_guide.md for more info.
 
 \---
@@ -40,7 +42,9 @@ SIFT-PM is intended for:
 
 \## 💡 Optimized for Windows
 
-🪟 This script is Windows-optimized, with UTF-8 encoding compatibility built-in. It explicitly reconfigures \`sys.stdin\`, \`sys.stdout\`, and \`sys.stderr\` to avoid encoding errors commonly encountered in Windows terminals — particularly important when working with international characters in BibTeX.
+🪟 This script is primarily Windows-optimized, featuring built-in UTF-8 encoding compatibility. It explicitly reconfigures sys.stdin, sys.stdout, and sys.stderr to avoid encoding errors commonly encountered in Windows terminals—especially important when handling international characters in BibTeX.
+
+🐧🍎 While optimized for Windows, the script includes improved encoding support for Linux and macOS environments and should work correctly on those systems, though testing has been principally done on Windows.
 
 \---
 
@@ -59,24 +63,17 @@ You can copy the following and save it as a \`.bib\` file (e.g., \`siftpm.bib\`)
 \`\`\`bibtex
 
 @misc{siftpm2025,
-
-author = {Joshua J. Podmore and Moein Radman and Silke Paulmann and Riccardo Poli and Ian Daly},
-
-title = {SIFT-PM: Systematic Incorporation and Filtering Tool for PubMed},
-
-year = {2025},
-
-howpublished = {\\url{<https://github.com/JoshPod93/Sift-PM}}>,
-
-note = {Python-based toolkit for efficient PubMed citation aggregation, filtering, and deduplication for systematic reviews},
-
+  author = {Joshua J. Podmore and Moein Radman and Silke Paulmann and Riccardo Poli and Ian Daly},
+  title = {SIFT-PM: Systematic Incorporation and Filtering Tool for PubMed},
+  year = {2025},
+  doi = {10.5281/zenodo.15553348},
+  howpublished = {\url{https://doi.org/10.5281/zenodo.15553348}},
+  note = {Python-based toolkit for efficient PubMed citation aggregation, filtering, and deduplication for systematic reviews},
 }
 
 \## 📄 Vancouver Citation
 
-Podmore JJ, Radman M, Paulmann S, Poli R, Daly I.
-
-SIFT-PM: Systematic Incorporation and Filtering Tool for PubMed \[Internet\]. 2025. Available from: <https://github.com/JoshPod93/Sift-PM>
+Podmore JJ, Radman M, Paulmann S, Poli R, Daly I. SIFT-PM: Systematic Incorporation and Filtering Tool for PubMed [Internet]. 2025. Available from: https://doi.org/10.5281/zenodo.15553348
 
 ## Credits
 
