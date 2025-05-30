@@ -1,0 +1,11 @@
+Credits
+
+This project uses and depends on several excellent open-source tools and libraries. Special thanks to the developers and maintainers of these projects:
+
+- pubmed-bib by Zhucheng Huang
+  A handy tool for retrieving BibTeX citations from PubMed IDs.
+  https://github.com/zhuchcn/pubmed-bib
+
+Other dependencies are listed in the requirements.txt file.
+
+We appreciate the open-source community for providing these valuable resources!
