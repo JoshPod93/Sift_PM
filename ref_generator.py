@@ -58,12 +58,20 @@ Entrez.api_key = "24c53e643b4cdb5719a09d9d29bcaa5d4809"  # Replace with your NCB
 f.validate_ncbi_credentials(Entrez)
     
 # ----------------------------------------
-# Parameters and Target Directory
-# ----------------------------------------
-targ_dir = './output'
+# Thresholding Citation Count
+# ----------------------------------------        
 threshold = 10
 print(f'\n>>> Enforcing Citation Threshold: {threshold}\n')
 
+# ----------------------------------------
+# Output Folder Check
+# ----------------------------------------
+targ_dir = './output'
+# Create directory if it doesn't exist
+if not os.path.exists(targ_dir):
+    os.makedirs(targ_dir)
+    print(f"📁 Created directory: {targ_dir}")
+    
 # ----------------------------------------
 # Clear Previous Output Files
 # ----------------------------------------
