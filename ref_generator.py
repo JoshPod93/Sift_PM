@@ -48,12 +48,10 @@ f.setup_encoding()
 # ----------------------------------------
 # Set up Entrez API credentials
 # ----------------------------------------
-Entrez.email = "joshpodmore@hotmail.co.uk"  # Replace with your email
-Entrez.api_key = "24c53e643b4cdb5719a09d9d29bcaa5d4809"  # Replace with your NCBI API key
 
 # User configuration
-# Entrez.email = "placeholder@change.com"  # Replace with your email
-# Entrez.api_key = "8e7f2a9b4c1d6e3f9g2h5i8j1k4l7m0n9p2q"  # Replace with your NCBI API key
+Entrez.email = "placeholder@change.com"  # Replace with your email
+Entrez.api_key = "8e7f2a9b4c1d6e3f9g2h5i8j1k4l7m0n9p2q"  # Replace with your NCBI API key
 
 f.validate_ncbi_credentials(Entrez)
     
